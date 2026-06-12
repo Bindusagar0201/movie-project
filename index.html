@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Rating System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>🎬 Movie Rating System</h1>
+<div class="form">
+<input type="text" id="movieName" placeholder="Enter Movie Name">
+<select id="rating">
+<option value="⭐">1 Star</option>
+<option value="⭐⭐">2 Stars</option>
+<option value="⭐⭐⭐">3 Stars</option>
+<option value="⭐⭐⭐⭐">4 Stars</option>
+<option value="⭐⭐⭐⭐⭐">5 Stars</option>
+</select>
+<button onclick="addMovie()">Add Movie</button>
+</div>
+<div id="movieContainer" class="movie-container"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
